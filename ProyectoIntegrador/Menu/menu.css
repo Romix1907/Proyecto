@@ -1,0 +1,63 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  width:100%;
+  background-color: #1C120A;
+}
+.logo{
+  width: 60px;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.navegador{
+  background-color: #D7AE8D;
+  border: 1px solid black;
+}
+.navegador li{
+ list-style-type: none;
+ padding: 5px;
+ text-align: right;
+ font-weight: bold;
+}
+.menu{
+  width: 30px;
+  position: absolute;
+  right: 16px;
+  bottom: 22px;
+}
+.logoymenu{
+  position: relative;
+  padding: 20px 20px;
+}
+.titulo{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+}
+@media (min-width: 960px){
+.menu{
+  display: none;
+}
+.navegador{
+  padding-left: 10px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-evenly;
+}
+
+.navegador li{
+  display: inline-block;
+  border: none;
+  text-align:center;
+}
+
+.titulo{
+  font-size: 30px;
+  text-align:center;
+  }
+}
