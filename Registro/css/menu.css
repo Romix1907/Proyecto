@@ -1,0 +1,144 @@
+*{
+  margin:0px;
+}
+/*MENU*/
+.menu{
+  background-color:black;
+  width:100%;
+  margin:0px;
+  color:white;
+  position:fixed;
+  position:relative;
+}
+.nombreymenu{
+  height:12vh;
+}
+.nombre {
+  font-family: "Latin Modern Roman 10";
+  font-style: oblique;
+  font-weight:normal;
+  text-decoration: none;
+  color:white;
+  font-size:2em;
+  margin: 10px;
+  position:absolute;
+  top:1vh;
+  left:1vw;
+}
+.hamburguesa{
+  width:7vw;
+  margin:10px;
+  position:absolute;
+  right:2vw;
+  top:2vh;
+}
+.naveador{
+  display:inline-block;
+}
+.navegador ul{
+  display:block;
+  width:100vw;
+  padding:0;
+}
+.navegador ul li{
+  list-style-type: none;
+  text-align:right;
+  padding: 1vh;
+}
+.navegador ul li a{
+  text-decoration: none;
+  color:white;
+}
+.navegador ul li a:hover{
+  text-decoration:underline;
+}
+.menu-hamb, .menu-hamb-check{
+    display: none;
+}
+.navegador ul{
+  display:none;
+}
+.menu-hamb-check:checked ~ ul{
+  display:inline-block;
+}
+
+/*FOOTER*/
+.footer{
+  background-color:black;
+  color:white;
+  position: absolute;
+  bottom:0px;
+  width:100vw;
+}
+.titulo-footer{
+  font-family: "Latin Modern Roman 10";
+  font-style: oblique;
+  font-weight:normal;
+  text-decoration: none;
+  color:white;
+  font-size:1.3em;
+  display:block;
+  text-align:center;
+  padding:1.5vh;
+}
+.contacto{
+  list-style-type: none;
+  padding:1vh;
+
+}
+.contacto li{
+  text-align:center;
+  padding:1vh 0vw;
+}
+/*.productos-footer{
+  display:flex;
+  justify-content:center;
+  padding:0px;
+}
+.productos-footer li{
+  list-style-type: none;
+  margin:0 2vw;
+}
+.productos-footer li a{
+  text-decoration: none;
+  color:white;
+}*/
+.redes{
+  color:white;
+  list-style-type:none;
+  display:flex;
+  justify-content:center;
+  height:7vh;
+  padding:0;
+}
+.redes li a i{
+  color:white;
+  margin: 1.5vh 0vw 0vh 2.5vw;
+}
+/*TABLET*/
+@media (min-width: 460px){
+  /*MENU*/
+.hamburguesa{
+  width:5vw;
+}
+}
+
+/*COMPUTADORA*/
+@media (min-width: 960px){
+  /*MENU*/
+.hamburguesa{
+  display:none;
+}
+.nombre{
+  width:100vw;
+  text-align:center;
+  top:10%;
+  left:0vh;
+  margin:0;
+  font-size:2.5em;
+}
+.navegador ul{
+  display:inline-flex;
+  justify-content:space-around;
+}
+}
