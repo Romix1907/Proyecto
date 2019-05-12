@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+/*NAVEGADOR*/
+.header {
+  display: flex;
+  position: fixed;
+  z-index: 9999;
+  background-color: black;
+  left: 0;
+  right: 0;
+  top: 0;
+  font-size: 15px;
+  justify-content: space-between;
+  }
+
+.logo a {
+  font-family: "Latin Modern Roman 10";
+  font-style: oblique;
+  color: white;
+  font-size: 2em;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+
+}
+.nav ul li a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin: 45px 35px;
+}
+
+ul {
+list-style-type: none;
+display: flex;
+justify-content: space-around;
+margin-bottom: auto;
+}
+
+li {
+  margin-top: 9px;
+  margin-left: -20px;
+}
+
+/*REGISTER*/
+
+h1 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 40%;
+  font-style: italic;
+}
+
+.contenedor{
+  background-image: url(../css/../img/register.jpg);
+}
+
+input {
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+
+.form-register {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 6%;
+}
+
+label {
+  color: #fff;
+  font-size: 25px;
+  padding: 5px;
+  font-style: italic;
+
+}
+
+.boton, .resetear {
+  padding: 8px;
+  border-radius: 5px;
+  font-style: italic;
+  border: #fff;
+  font-family: sans-serif;
+  color: #fff;
+ }
+
+ form button:hover {
+  background-color: #fff;
+ 	color: #000;
+ }
+
+.boton {
+  background-color: #c1aba27a;
+}
+
+.resetear {
+  background-color: #112b296e;
+}
+
+select {
+  font-size: 20px;
+}
+
+.register {
+  background-color: #7955488f;
+  padding: 20px;
+}
+
+form a {
+  color: #fff;
+  text-decoration: none;
+}
