@@ -1,0 +1,159 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+header{
+  background-color: black;
+}
+
+ul {
+  background-color: #190707;
+  padding: 1px;
+}
+
+li {
+ list-style-type: none;
+ padding: 5px;
+ text-align: center;
+ font-weight: bold;
+}
+
+li a {
+  color:white;
+  font-style: italic;
+}
+
+.menu {
+  width: 30px;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.logoymenu{
+  position: relative;
+  padding: 20px 20px;
+}
+
+.logo{
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.menu{
+  position: absolute;
+  right: 16px;
+  bottom: 22px;
+}
+
+
+/*REGISTER*/
+
+h1 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 3%;
+  font-style: italic;
+}
+
+.contenedor{
+  background-image: url(../css/../img/register.jpg);
+  background-size: cover;
+}
+
+input {
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+
+.form-register {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 6%;
+}
+
+label {
+  color: #fff;
+  font-size: 25px;
+  padding: 5px;
+  font-style: italic;
+
+}
+
+.boton, .resetear {
+  padding: 8px;
+  border-radius: 5px;
+  font-style: italic;
+  border: #fff;
+  font-family: sans-serif;
+  color: #fff;
+ }
+
+ form button:hover {
+  background-color: #fff;
+ 	color: #000;
+ }
+
+.boton {
+  background-color: #c1aba27a;
+}
+
+.resetear {
+  background-color: #112b296e;
+}
+
+select {
+  font-size: 20px;
+}
+
+.register {
+  background-color: #7955488f;
+  padding: 20px;
+}
+
+form a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.coment {
+  width: 95%;
+}
+
+@media (min-width: 460px) {
+
+  h1 {
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+    }
+
+}
+@media (min-width: 960px) {
+
+ul {
+  border: 1px solid white;
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  display: inline-block;
+  border: none;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Playfair Display SC', serif;
+  }
