@@ -1,0 +1,108 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+header{
+  background-color: black;
+}
+
+ul {
+  background-color: #190707;
+  padding: 1px;
+}
+
+li {
+ list-style-type: none;
+ padding: 5px;
+ text-align: center;
+ font-weight: bold;
+}
+
+li a {
+  color:white;
+  font-style: italic;
+}
+
+.menu {
+  width: 30px;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.logoymenu{
+  position: relative;
+  padding: 20px 20px;
+}
+
+.logo{
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.menu{
+  position: absolute;
+  right: 16px;
+  bottom: 22px;
+}
+
+main {
+  margin-top: 10px;
+  background-color: #3B0B0B;
+}
+
+.preguntas article {
+  background-color: white;
+  margin: 20px;
+  border: 1px solid black;
+  padding:10px;
+}
+
+.preguntas article p {
+padding: 7px 0px;
+}
+
+/*PREGUNTAS*/
+
+h1 {
+  font-size: 2em;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 3%;
+  font-style: italic;
+}
+
+@media (min-width: 460px) {
+
+  h1 {
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+    }
+
+}
+@media (min-width: 960px) {
+
+ul {
+  border: 1px solid white;
+  padding-left: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  display: inline-block;
+  border: none;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Playfair Display SC', serif;
+  }
