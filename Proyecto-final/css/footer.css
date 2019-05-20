@@ -1,0 +1,58 @@
+*{
+  margin:0;
+}
+
+.footer{
+  background-color:black;
+  color:white;
+  width:100vw;
+}
+.titulo-footer{
+  font-family: "Latin Modern Roman 10";
+  font-style: oblique;
+  font-weight:normal;
+  text-decoration: none;
+  color:white;
+  font-size:1.3em;
+  display:block;
+  text-align:center;
+  padding:1.5vh;
+}
+.contacto{
+  list-style-type: none;
+  padding:1vh;
+
+}
+.contacto li{
+  text-align:center;
+  padding:1vh 0vw;
+  color:white;
+}
+/*.productos-footer{
+  display:flex;
+  justify-content:center;
+  padding:0px;
+}
+.productos-footer li{
+  list-style-type: none;
+  margin:0 2vw;
+}
+.productos-footer li a{
+  text-decoration: none;
+  color:white;
+}*/
+.redes{
+  color:white;
+  list-style-type:none;
+  display:flex;
+  justify-content:center;
+  height:7vh;
+  padding:0;
+}
+.redes li a i{
+  color:white;
+  margin: 1.5vh 0vw 0vh 2.5vw;
+}
+.titulo-footer:hover{
+  text-decoration:underline;
+}

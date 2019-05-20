@@ -1,0 +1,81 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Playfair Display SC', serif;
+  margin-left: 3%;
+  padding-bottom: 5vh;
+  font-style: italic;
+}
+
+.contenedor{
+  background-image: url('../Imagenes/img/register.jpg');
+  background-size: cover;
+}
+
+input {
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+
+.form-login {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 6%;
+}
+
+.label-login {
+  color: #fff;
+  font-size: 25px;
+  padding: 5px;
+  font-style: italic;
+  margin-right: 1%;
+}
+.form-login mark{
+  background-color: #FFF9C4;
+  display:block;
+}
+.boton {
+  padding: 8px;
+  border-radius: 5px;
+  font-style: italic;
+  border: #fff;
+  font-family: sans-serif;
+  color: #fff;
+ }
+
+ form button:hover {
+  background-color: #fff;
+ 	color: #000;
+ }
+
+.boton {
+  background-color: #c1aba27a;
+}
+
+select {
+  font-size: 20px;
+}
+.form-login{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 6%;
+  margin-bottom:6%;
+}
+.login {
+  background-color: #7955488f;
+  padding: 20px;
+}
+
+form a {
+  color: #fff;
+  text-decoration: none;
+}

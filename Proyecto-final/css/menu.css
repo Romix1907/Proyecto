@@ -1,0 +1,95 @@
+*{
+  margin:0px;
+}
+.menu{
+  background-color:black;
+  width:100%;
+  margin:0px;
+  color:white;
+  position:fixed;
+  position:relative;
+}
+.nombreymenu{
+  height:12vh;
+}
+.nombre {
+  font-family: "Latin Modern Roman 10";
+  font-style: oblique;
+  font-weight:normal;
+  text-decoration: none;
+  color:white;
+  font-size:2em;
+  margin: 10px;
+  position:absolute;
+  top:1vh;
+  left:1vw;
+}
+.hamburguesa{
+  width:7vw;
+  margin:10px;
+  position:absolute;
+  right:2vw;
+  top:2vh;
+}
+hr{
+  padding:0;
+  margin-top:2vh;
+  margin-bottom:0;
+  border-top: 1px solid rgb(255,255,255);
+}
+.naveador{
+  display:inline-block;
+  height:1px;
+}
+.navegador ul{
+  display:block;
+  width:100vw;
+  padding:0;
+}
+.navegador ul li{
+  list-style-type: none;
+  text-align:right;
+  padding: 1vh;
+}
+.navegador ul li a{
+  text-decoration: none;
+  color:white;
+}
+.navegador ul li a:hover{
+  text-decoration:underline;
+}
+.menu-hamb, .menu-hamb-check{
+    display: none;
+}
+.navegador ul{
+  display:none;
+}
+.menu-hamb-check:checked ~ ul{
+  display:inline-block;
+}
+
+/*TABLET*/
+@media (min-width: 460px){
+.hamburguesa{
+  width:5vw;
+}
+}
+
+/*COMPUTADORA*/
+@media (min-width: 960px){
+.hamburguesa{
+  display:none;
+}
+.nombre{
+  width:100vw;
+  text-align:center;
+  top:10%;
+  left:0vh;
+  margin:0;
+  font-size:2.5em;
+}
+.navegador ul{
+  display:inline-flex;
+  justify-content:space-around;
+}
+}

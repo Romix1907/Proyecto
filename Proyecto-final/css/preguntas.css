@@ -1,0 +1,35 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: black;
+}
+
+h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-style: italic;
+  font-size: 2em;
+  text-align: center;
+  color: white;
+  margin:0;
+}
+
+.preguntas {
+  background-color: #3B0B0B;
+}
+
+.preguntas article {
+  background-color: white;
+  margin: 20px;
+  border: 1px solid black;
+  padding:10px;
+}
+
+.preguntas article p {
+padding: 7px 0px;
+}
+
+.pregunta{
+  font-size:1em;
+}
